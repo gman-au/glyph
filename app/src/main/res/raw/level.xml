@@ -1,0 +1,1447 @@
+<levels>
+    <original>
+        <chapter>
+            <level id="0002A" author="gub">
+                <gate id="o0" pins="0" type="IN" x="39" y="142" />
+                <gate id="o2" pins="0" type="IN" x="39" y="263" />
+                <gate id="o1" pins="2" type="FUSE" x="205" y="205" />
+                <gate id="o10" pins="2" type="XOR" x="350" y="255" />
+                <gate id="o4" pins="2" type="BOMB" x="459" y="150" />
+                <gate id="o11" pins="1" type="OUT" x="459" y="225" />
+                <gate id="o3" pins="1" type="NOT" x="269" y="205" />
+                <gate id="o6" pins="2" type="XOR" x="141" y="61" />
+                <gate id="o5" pins="0" type="IN" x="39" y="197" />
+                <gate id="o8" pins="0" type="IN" x="39" y="53" />
+                <gate id="o7" pins="2" type="AND" x="269" y="104" />
+                <gate id="o9" pins="1" type="OUT" x="459" y="72" />
+                <link src="o10" trg="o11" pin="1" />
+                <link src="o3" trg="o10" pin="1" />
+                <link src="o0" trg="o6" pin="2" />
+                <link src="o8" trg="o6" pin="1" />
+                <link src="o3" trg="o4" pin="2" />
+                <link src="o7" trg="o9" pin="1" />
+                <link src="o6" trg="o7" pin="1" />
+                <link src="o2" trg="o10" pin="2" />
+                <link src="o5" trg="o7" pin="2" />
+                <link src="o7" trg="o4" pin="1" />
+                <link src="o1" trg="o3" pin="1" />
+                <link src="o5" trg="o1" pin="1" />
+                <link src="o2" trg="o1" pin="2" />
+            </level>
+            <level id="0002B" author="gub">
+                <gate id="o0" pins="1" type="NOT" x="280" y="28" />
+                <gate id="o2" pins="1" type="OUT" x="478" y="140" />
+                <gate id="o1" pins="0" type="IN" x="78" y="296" />
+                <gate id="o4" pins="1" type="NOT" x="280" y="236" />
+                <gate id="o3" pins="3" type="AND" x="393" y="140" />
+                <gate id="o6" pins="0" type="IN" x="78" y="236" />
+                <gate id="o5" pins="1" type="BOMB" x="478" y="236" />
+                <gate id="o8" pins="0" type="IN" x="78" y="180" />
+                <gate id="o14" pins="2" type="XOR" x="280" y="288" />
+                <gate id="o7" pins="0" type="IN" x="78" y="90" />
+                <gate id="o13" pins="2" type="XOR" x="280" y="188" />
+                <gate id="o12" pins="2" type="XOR" x="280" y="82" />
+                <gate id="o9" pins="1" type="BOMB" x="478" y="36" />
+                <gate id="o17" pins="0" type="IN" x="78" y="28" />
+                <gate id="o16" pins="2" type="XOR" x="280" y="140" />
+                <gate id="o10" pins="2" type="AND" x="393" y="36" />
+                <gate id="o11" pins="3" type="AND" x="393" y="236" />
+                <link src="o17" trg="o12" pin="1" />
+                <link src="o13" trg="o3" pin="3" />
+                <link src="o1" trg="o14" pin="2" />
+                <link src="o10" trg="o9" pin="1" />
+                <link src="o12" trg="o10" pin="2" />
+                <link src="o8" trg="o16" pin="2" />
+                <link src="o0" trg="o10" pin="1" />
+                <link src="o8" trg="o13" pin="1" />
+                <link src="o17" trg="o0" pin="1" />
+                <link src="o13" trg="o11" pin="1" />
+                <link src="o16" trg="o3" pin="2" />
+                <link src="o7" trg="o16" pin="1" />
+                <link src="o6" trg="o4" pin="1" />
+                <link src="o14" trg="o11" pin="3" />
+                <link src="o11" trg="o5" pin="1" />
+                <link src="o12" trg="o3" pin="1" />
+                <link src="o3" trg="o2" pin="1" />
+                <link src="o4" trg="o11" pin="2" />
+                <link src="o7" trg="o12" pin="2" />
+                <link src="o6" trg="o13" pin="2" />
+                <link src="o6" trg="o14" pin="1" />
+            </level>
+            <level id="0002C" author="gub">
+                <gate id="o0" pins="0" type="IN" x="60" y="49" />
+                <gate id="o2" pins="1" type="OUT" x="473" y="240" />
+                <gate id="o1" pins="0" type="IN" x="60" y="248" />
+                <gate id="o10" pins="1" type="NOT" x="300" y="49" />
+                <gate id="o4" pins="1" type="NOT" x="300" y="120" />
+                <gate id="o11" pins="2" type="BOMB" x="473" y="57" />
+                <gate id="o3" pins="2" type="XOR" x="192" y="82" />
+                <gate id="o6" pins="2" type="XOR" x="192" y="240" />
+                <gate id="o5" pins="3" type="AND" x="400" y="162" />
+                <gate id="o8" pins="0" type="IN" x="60" y="120" />
+                <gate id="o7" pins="2" type="OR" x="192" y="162" />
+                <gate id="o9" pins="0" type="IN" x="60" y="193" />
+                <link src="o1" trg="o6" pin="2" />
+                <link src="o10" trg="o11" pin="1" />
+                <link src="o8" trg="o3" pin="2" />
+                <link src="o3" trg="o4" pin="1" />
+                <link src="o6" trg="o5" pin="3" />
+                <link src="o8" trg="o7" pin="1" />
+                <link src="o0" trg="o10" pin="1" />
+                <link src="o7" trg="o5" pin="2" />
+                <link src="o5" trg="o11" pin="2" />
+                <link src="o9" trg="o7" pin="2" />
+                <link src="o0" trg="o3" pin="1" />
+                <link src="o9" trg="o6" pin="1" />
+                <link src="o4" trg="o5" pin="1" />
+                <link src="o5" trg="o2" pin="1" />
+            </level>
+            <level id="0002D" author="gub">
+              <gate id="o0" pins="0" type="IN" x="41" y="45" />
+              <gate id="o2" pins="0" type="IN" x="41" y="270" />
+              <gate id="o1" pins="0" type="IN" x="41" y="194" />
+              <gate id="o4" pins="1" type="NOT" x="160" y="194" />
+              <gate id="o3" pins="2" type="BOMB" x="212" y="202" />
+              <gate id="o6" pins="1" type="IN" x="248" y="270" />
+              <gate id="o5" pins="2" type="FUSE" x="109" y="138" nobus="1" />
+              <gate id="o8" pins="1" type="NOT" x="421" y="56" />
+              <gate id="o7" pins="3" type="FUSE" x="375" y="56" />
+              <gate id="o13" pins="1" type="NOT" x="160" y="101" />
+              <gate id="o12" pins="2" type="BOMB" x="212" y="93" />
+              <gate id="o9" pins="2" type="BOMB" x="480" y="64" />
+              <gate id="o10" pins="1" type="IN" x="375" y="154" />
+              <gate id="o11" pins="1" type="OUT" x="480" y="154" />
+              <link src="o0" trg="o12" pin="1" />
+              <link src="o0" trg="o7" pin="1" />
+              <link src="o5" trg="o7" pin="2" />
+              <link src="o6" trg="o7" pin="3" />
+              <link src="o7" trg="o8" pin="1" />
+              <link src="o6" trg="o10" pin="1" />
+              <link src="o5" trg="o4" pin="1" />
+              <link src="o13" trg="o12" pin="2" />
+              <link src="o10" trg="o11" pin="1" />
+              <link src="o1" trg="o5" pin="2" />
+              <link src="o2" trg="o6" pin="1" />
+              <link src="o10" trg="o9" pin="2" />
+              <link src="o4" trg="o3" pin="1" />
+              <link src="o8" trg="o9" pin="1" />
+              <link src="o5" trg="o13" pin="1" />
+              <link src="o0" trg="o5" pin="1" />
+              <link src="o2" trg="o3" pin="2" />
+            </level>
+            <level id="0002E" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="46" y="44" />
+                <gate id="o2" pins="0" type="IN" x="46" y="252" />
+                <gate id="o1" pins="0" type="IN" x="46" y="140" />
+                <gate id="o4" pins="2" type="AND" x="162" y="244" />
+                <gate id="o10" pins="1" type="OUT" x="482" y="62" />
+                <gate id="o3" pins="2" type="AND" x="162" y="52" />
+                <gate id="o11" pins="1" type="OUT" x="482" y="140" />
+                <gate id="o6" pins="1" type="IN" x="224" y="107" />
+                <gate id="o5" pins="3" type="FLIP" x="393" y="62" />
+                <gate id="o8" pins="2" type="FLIP" x="393" y="236" />
+                <gate id="o7" pins="3" type="XOR" x="287" y="172" />
+                <gate id="o9" pins="1" type="NOT" x="393" y="140" />
+                <gate id="o12" pins="1" type="OUT" x="482" y="236" />
+                <link src="o8" trg="o12" pin="1" />
+                <link src="o1" trg="o3" pin="2" />
+                <link src="o0" trg="o3" pin="1" />
+                <link src="o7" trg="o8" pin="1" />
+                <link src="o5" trg="o10" pin="1" />
+                <link src="o4" trg="o8" pin="2" />
+                <link src="o6" trg="o5" pin="2" />
+                <link src="o9" trg="o11" pin="1" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o3" trg="o6" pin="1" />
+                <link src="o6" trg="o7" pin="1" />
+                <link src="o4" trg="o7" pin="3" />
+                <link src="o7" trg="o9" pin="1" />
+                <link src="o1" trg="o7" pin="2" />
+                <link src="o2" trg="o4" pin="2" />
+                <link src="o7" trg="o5" pin="3" />
+                <link src="o3" trg="o5" pin="1" />
+            </level>
+            <level id="0002F" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="54" y="54" />
+                <gate id="o2" pins="2" type="BOMB" x="148" y="209" />
+                <gate id="o1" pins="0" type="IN" x="54" y="165" />
+                <gate id="o10" pins="1" type="OUT" x="482" y="94" />
+                <gate id="o4" pins="1" type="IN" x="222" y="165" />
+                <gate id="o11" pins="2" type="BOMB" x="222" y="62" />
+                <gate id="o3" pins="2" type="OR" x="148" y="118" />
+                <gate id="o6" pins="2" type="AND" x="293" y="255" />
+                <gate id="o5" pins="0" type="IN" x="54" y="263" />
+                <gate id="o8" pins="1" type="NOT" x="362" y="165" />
+                <gate id="o7" pins="1" type="IN" x="293" y="86" />
+                <gate id="o9" pins="2" type="AND" x="426" y="94" />
+                <link src="o3" trg="o4" pin="1" />
+                <link src="o5" trg="o6" pin="2" />
+                <link src="o4" trg="o7" pin="1" />
+                <link src="o5" trg="o2" pin="2" />
+                <link src="o7" trg="o9" pin="1" />
+                <link src="o8" trg="o9" pin="2" />
+                <link src="o4" trg="o6" pin="1" />
+                <link src="o0" trg="o3" pin="1" />
+                <link src="o1" trg="o3" pin="2" />
+                <link src="o9" trg="o10" pin="1" />
+                <link src="o0" trg="o11" pin="1" />
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o3" trg="o11" pin="2" />
+            </level>
+            <level id="0002G" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="42" y="44" />
+                <gate id="o2" pins="2" type="FLIP" x="113" y="194" />
+                <gate id="o1" pins="0" type="IN" x="42" y="128" />
+                <gate id="o10" pins="1" type="OUT" x="464" y="87" />
+                <gate id="o3" pins="0" type="IN" x="42" y="244" />
+                <gate id="o11" pins="1" type="OUT" x="464" y="186" />
+                <gate id="o6" pins="2" type="AND" x="234" y="136" />
+                <gate id="o5" pins="2" type="FUSE" x="113" y="79" />
+                <gate id="o8" pins="2" type="XOR" x="335" y="186" />
+                <gate id="o7" pins="2" type="XOR" x="335" y="87" />
+                <gate id="o9" pins="1" type="NOT" x="406" y="186" />
+                <link src="o7" trg="o10" pin="1" />
+                <link src="o5" trg="o6" pin="1" />
+                <link src="o3" trg="o2" pin="2" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o0" trg="o5" pin="1" />
+                <link src="o8" trg="o9" pin="1" />
+                <link src="o2" trg="o8" pin="2" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o2" trg="o6" pin="2" />
+                <link src="o1" trg="o5" pin="2" />
+                <link src="o6" trg="o7" pin="2" />
+                <link src="o9" trg="o11" pin="1" />
+                <link src="o1" trg="o2" pin="1" />
+            </level>
+            <level id="0002H" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="43" y="49" />
+                <gate id="o2" pins="2" type="FLIP" x="137" y="80" />
+                <gate id="o1" pins="0" type="IN" x="43" y="115" />
+                <gate id="o4" pins="0" type="IN" x="43" y="186" />
+                <gate id="o3" pins="2" type="FLIP" x="223" y="115" />
+                <gate id="o6" pins="2" type="FLIP" x="223" y="178" />
+                <gate id="o5" pins="2" type="FLIP" x="137" y="144" />
+                <gate id="o15" pins="1" type="OUT" x="513" y="186" />
+                <gate id="o8" pins="2" type="FLIP" x="137" y="217" />
+                <gate id="o14" pins="1" type="OUT" x="513" y="96" />
+                <gate id="o7" pins="0" type="IN" x="43" y="263" />
+                <gate id="o13" pins="1" type="OUT" x="513" y="144" />
+                <gate id="o12" pins="1" type="NOT" x="403" y="144" />
+                <gate id="o9" pins="2" type="FLIP" x="318" y="146" />
+                <gate id="o10" pins="3" type="FLIP" x="388" y="60" />
+                <gate id="o11" pins="3" type="FLIP" x="388" y="252" />
+                <link src="o8" trg="o6" pin="2" />
+                <link src="o6" trg="o9" pin="2" />
+                <link src="o5" trg="o6" pin="1" />
+                <link src="o11" trg="o15" pin="1" />
+                <link src="o0" trg="o10" pin="1" />
+                <link src="o12" trg="o13" pin="1" />
+                <link src="o9" trg="o12" pin="1" />
+                <link src="o0" trg="o2" pin="1" />
+                <link src="o1" trg="o5" pin="1" />
+                <link src="o4" trg="o5" pin="2" />
+                <link src="o2" trg="o3" pin="1" />
+                <link src="o9" trg="o11" pin="1" />
+                <link src="o1" trg="o2" pin="2" />
+                <link src="o6" trg="o11" pin="2" />
+                <link src="o10" trg="o14" pin="1" />
+                <link src="o3" trg="o10" pin="2" />
+                <link src="o7" trg="o8" pin="2" />
+                <link src="o3" trg="o9" pin="1" />
+                <link src="o7" trg="o11" pin="3" />
+                <link src="o5" trg="o3" pin="2" />
+                <link src="o4" trg="o8" pin="1" />
+                <link src="o9" trg="o10" pin="3" />
+            </level>
+            <level id="0002I" author="Your Name Here">
+                <gate id="o0" pins="1" type="NOT" x="123" y="60" />
+                <gate id="o2" pins="2" type="OR" x="200" y="68" />
+                <gate id="o1" pins="0" type="IN" x="53" y="60" />
+                <gate id="o4" pins="1" type="NOT" x="200" y="151" />
+                <gate id="o3" pins="1" type="IN" x="123" y="121" />
+                <gate id="o6" pins="1" type="OUT" x="492" y="76" />
+                <gate id="o5" pins="2" type="FLIP" x="287" y="76" />
+                <gate id="o8" pins="2" type="XOR" x="287" y="224" />
+                <gate id="o7" pins="1" type="NOT" x="410" y="224" />
+                <gate id="o13" pins="1" type="OUT" x="492" y="224" />
+                <gate id="o12" pins="1" type="NOT" x="410" y="151" />
+                <gate id="o9" pins="1" type="IN" x="200" y="232" />
+                <gate id="o10" pins="1" type="OUT" x="492" y="151" />
+                <gate id="o11" pins="2" type="FLIP" x="357" y="151" />
+                <link src="o8" trg="o11" pin="2" />
+                <link src="o5" trg="o6" pin="1" />
+                <link src="o4" trg="o8" pin="1" />
+                <link src="o3" trg="o9" pin="1" />
+                <link src="o11" trg="o12" pin="1" />
+                <link src="o12" trg="o10" pin="1" />
+                <link src="o2" trg="o5" pin="1" />
+                <link src="o3" trg="o4" pin="1" />
+                <link src="o9" trg="o8" pin="2" />
+                <link src="o1" trg="o3" pin="1" />
+                <link src="o3" trg="o2" pin="2" />
+                <link src="o4" trg="o5" pin="2" />
+                <link src="o8" trg="o7" pin="1" />
+                <link src="o7" trg="o13" pin="1" />
+                <link src="o0" trg="o2" pin="1" />
+                <link src="o5" trg="o11" pin="1" />
+                <link src="o1" trg="o0" pin="1" />
+            </level>
+        </chapter>
+        <chapter>
+            <level primary="ffd883" secondary="f0c104" id="0001L" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="48" y="64" />
+                <gate id="o2" pins="0" type="IN" x="48" y="167" />
+                <gate id="o1" pins="0" type="IN" x="48" y="119" />
+                <gate id="o4" pins="3" type="FLIP" x="121" y="119" />
+                <gate id="o3" pins="0" type="IN" x="48" y="261" />
+                <gate id="o6" pins="3" type="FLIP" x="228" y="167" />
+                <gate id="o5" pins="2" type="FLIP" x="121" y="214" />
+                <gate id="o8" pins="2" type="FLIP" x="228" y="253" />
+                <gate id="o7" pins="2" type="FLIP" x="228" y="72" />
+                <gate id="o13" pins="3" type="AND" x="421" y="167" />
+                <gate id="o12" pins="1" type="OUT" x="483" y="167" />
+                <gate id="o9" pins="2" type="FLIP" x="342" y="80" />
+                <gate id="o10" pins="2" type="FLIP" x="342" y="245" />
+                <gate id="o11" pins="1" type="NOT" x="342" y="167" />
+                <link src="o7" trg="o9" pin="1" />
+                <link src="o6" trg="o10" pin="1" />
+                <link src="o6" trg="o11" pin="1" />
+                <link src="o0" trg="o7" pin="1" />
+                <link src="o9" trg="o13" pin="1" />
+                <link src="o2" trg="o5" pin="1" />
+                <link src="o0" trg="o4" pin="1" />
+                <link src="o2" trg="o6" pin="2" />
+                <link src="o13" trg="o12" pin="1" />
+                <link src="o3" trg="o5" pin="2" />
+                <link src="o8" trg="o10" pin="2" />
+                <link src="o10" trg="o13" pin="3" />
+                <link src="o11" trg="o13" pin="2" />
+                <link src="o5" trg="o6" pin="3" />
+                <link src="o6" trg="o9" pin="2" />
+                <link src="o2" trg="o4" pin="3" />
+                <link src="o1" trg="o4" pin="2" />
+                <link src="o5" trg="o8" pin="1" />
+                <link src="o3" trg="o8" pin="2" />
+                <link src="o4" trg="o6" pin="1" />
+                <link src="o4" trg="o7" pin="2" />
+            </level>
+            <level id="0001K" primary="e88d56" secondary="81429e" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="42" y="48" />
+                <gate id="o2" pins="2" type="XOR" x="122" y="84" />
+                <gate id="o1" pins="0" type="IN" x="42" y="114" />
+                <gate id="o10" pins="1" type="OUT" x="457" y="238" />
+                <gate id="o4" pins="2" type="FLIP" x="204" y="122" />
+                <gate id="o11" pins="1" type="NOT" x="359" y="238" />
+                <gate id="o3" pins="1" type="NOT" x="122" y="155" />
+                <gate id="o6" pins="3" type="AND" x="359" y="155" />
+                <gate id="o5" pins="3" type="FUSE" x="280" y="59" />
+                <gate id="o8" pins="2" type="FLIP" x="204" y="189" />
+                <gate id="o7" pins="0" type="IN" x="122" y="246" />
+                <gate id="o12" pins="2" type="XOR" x="280" y="238" />
+                <gate id="o9" pins="1" type="OUT" x="457" y="155" />
+                <link src="o5" trg="o6" pin="1" />
+                <link src="o7" trg="o12" pin="2" />
+                <link src="o0" trg="o2" pin="1" />
+                <link src="o8" trg="o12" pin="1" />
+                <link src="o8" trg="o6" pin="3" />
+                <link src="o4" trg="o6" pin="2" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o4" trg="o5" pin="3" />
+                <link src="o6" trg="o9" pin="1" />
+                <link src="o2" trg="o5" pin="2" />
+                <link src="o7" trg="o8" pin="2" />
+                <link src="o12" trg="o11" pin="1" />
+                <link src="o3" trg="o4" pin="2" />
+                <link src="o3" trg="o8" pin="1" />
+                <link src="o11" trg="o10" pin="1" />
+                <link src="o1" trg="o2" pin="2" />
+                <link src="o0" trg="o5" pin="1" />
+                <link src="o1" trg="o3" pin="1" />
+            </level>
+            <level id="0001J" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="44" y="58" />
+                <gate id="o2" pins="0" type="IN" x="42" y="122" />
+                <gate id="o1" pins="2" type="FLIP" x="125" y="66" />
+                <gate id="o4" pins="2" type="FLIP" x="241" y="169" />
+                <gate id="o10" pins="2" type="FLIP" x="304" y="236" />
+                <gate id="o3" pins="1" type="NOT" x="184" y="122" />
+                <gate id="o6" pins="2" type="FLIP" x="304" y="74" />
+                <gate id="o5" pins="0" type="IN" x="44" y="177" />
+                <gate id="o8" pins="0" type="IN" x="44" y="252" />
+                <gate id="o7" pins="2" type="FLIP" x="125" y="244" />
+                <gate id="o9" pins="3" type="AND" x="428" y="169" />
+                <gate id="o12" pins="1" type="OUT" x="486" y="169" />
+                <link src="o5" trg="o4" pin="2" />
+                <link src="o1" trg="o6" pin="1" />
+                <link src="o4" trg="o6" pin="2" />
+                <link src="o9" trg="o12" pin="1" />
+                <link src="o4" trg="o10" pin="1" />
+                <link src="o0" trg="o1" pin="1" />
+                <link src="o10" trg="o9" pin="3" />
+                <link src="o8" trg="o7" pin="2" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o3" trg="o4" pin="1" />
+                <link src="o4" trg="o9" pin="2" />
+                <link src="o1" trg="o3" pin="1" />
+                <link src="o2" trg="o1" pin="2" />
+                <link src="o6" trg="o9" pin="1" />
+                <link src="o7" trg="o10" pin="2" />
+            </level>
+            <level id="0001I" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="50" y="52" />
+                <gate id="o2" pins="0" type="IN" x="50" y="100" />
+                <gate id="o1" pins="3" type="FLIP" x="154" y="100" />
+                <gate id="o4" pins="1" type="IN" x="226" y="51" />
+                <gate id="o10" pins="0" type="IN" x="50" y="266" />
+                <gate id="o11" pins="1" type="IN" x="350" y="266" />
+                <gate id="o3" pins="1" type="NOT" x="226" y="160" />
+                <gate id="o6" pins="1" type="OUT" x="484" y="139" />
+                <gate id="o5" pins="3" type="FLIP" x="350" y="100" />
+                <gate id="o8" pins="2" type="FLIP" x="154" y="215" />
+                <gate id="o7" pins="3" type="FLIP" x="412" y="139" />
+                <gate id="o9" pins="2" type="FLIP" x="314" y="207" />
+                <gate id="o12" pins="0" type="IN" x="50" y="160" />
+                <link src="o10" trg="o11" pin="1" />
+                <link src="o3" trg="o5" pin="3" />
+                <link src="o9" trg="o7" pin="2" />
+                <link src="o8" trg="o9" pin="2" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o7" trg="o6" pin="1" />
+                <link src="o4" trg="o5" pin="1" />
+                <link src="o10" trg="o8" pin="2" />
+                <link src="o12" trg="o1" pin="3" />
+                <link src="o2" trg="o1" pin="2" />
+                <link src="o12" trg="o3" pin="1" />
+                <link src="o0" trg="o1" pin="1" />
+                <link src="o11" trg="o7" pin="3" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o12" trg="o8" pin="1" />
+                <link src="o1" trg="o5" pin="2" />
+                <link src="o3" trg="o9" pin="1" />
+            </level>
+            <level id="0001H" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="53" y="33" />
+                <gate id="o2" pins="2" type="OR" x="136" y="70" />
+                <gate id="o1" pins="0" type="IN" x="53" y="108" />
+                <gate id="o4" pins="2" type="OR" x="208" y="116" />
+                <gate id="o3" pins="2" type="XOR" x="208" y="41" />
+                <gate id="o6" pins="2" type="XOR" x="136" y="150" />
+                <gate id="o5" pins="0" type="IN" x="53" y="186" />
+                <gate id="o15" pins="1" type="OUT" x="446" y="49" />
+                <gate id="o8" pins="2" type="OR" x="136" y="224" />
+                <gate id="o14" pins="2" type="OR" x="302" y="202" />
+                <gate id="o7" pins="2" type="AND" x="208" y="194" />
+                <gate id="o13" pins="1" type="AND" x="302" y="247" />
+                <gate id="o12" pins="2" type="XOR" x="208" y="247" />
+                <gate id="o9" pins="0" type="IN" x="53" y="255" />
+                <gate id="o19" pins="1" type="OUT" x="446" y="247" />
+                <gate id="o18" pins="1" type="OUT" x="446" y="202" />
+                <gate id="o17" pins="1" type="OUT" x="446" y="124" />
+                <gate id="o16" pins="1" type="NOT" x="381" y="124" />
+                <gate id="o10" pins="2" type="XOR" x="302" y="124" />
+                <gate id="o20" pins="1" type="NOT" x="381" y="247" />
+                <gate id="o11" pins="2" type="AND" x="302" y="49" />
+                <link src="o4" trg="o10" pin="1" />
+                <link src="o11" trg="o15" pin="1" />
+                <link src="o5" trg="o6" pin="2" />
+                <link src="o8" trg="o12" pin="1" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o14" trg="o18" pin="1" />
+                <link src="o6" trg="o4" pin="2" />
+                <link src="o13" trg="o20" pin="1" />
+                <link src="o7" trg="o14" pin="1" />
+                <link src="o5" trg="o8" pin="1" />
+                <link src="o1" trg="o2" pin="2" />
+                <link src="o16" trg="o17" pin="1" />
+                <link src="o3" trg="o11" pin="1" />
+                <link src="o0" trg="o3" pin="1" />
+                <link src="o6" trg="o7" pin="1" />
+                <link src="o1" trg="o6" pin="1" />
+                <link src="o10" trg="o16" pin="1" />
+                <link src="o9" trg="o12" pin="2" />
+                <link src="o8" trg="o7" pin="2" />
+                <link src="o0" trg="o2" pin="1" />
+                <link src="o12" trg="o13" pin="1" />
+                <link src="o20" trg="o19" pin="1" />
+                <link src="o4" trg="o11" pin="2" />
+                <link src="o9" trg="o8" pin="2" />
+                <link src="o12" trg="o14" pin="2" />
+                <link src="o2" trg="o3" pin="2" />
+                <link src="o7" trg="o10" pin="2" />
+            </level>
+            <level id="0001G" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="44" y="57" />
+                <gate id="o2" pins="0" type="IN" x="44" y="201" />
+                <gate id="o1" pins="0" type="IN" x="44" y="132" />
+                <gate id="o4" pins="1" type="NOT" x="186" y="57" />
+                <gate id="o3" pins="3" type="FLIP" x="167" y="132" />
+                <gate id="o5" pins="2" type="AND" x="262" y="86" />
+                <gate id="o8" pins="1" type="IN" x="262" y="178" />
+                <gate id="o7" pins="2" type="AND" x="417" y="160" />
+                <gate id="o13" pins="1" type="NOT" x="165" y="217" />
+                <gate id="o9" pins="2" type="AND" x="262" y="260" />
+                <gate id="o12" pins="1" type="OUT" x="488" y="160" />
+                <gate id="o10" pins="0" type="IN" x="44" y="268" />
+                <gate id="o11" pins="2" type="AND" x="342" y="208" />
+                <link src="o3" trg="o5" pin="2" />
+                <link src="o13" trg="o9" pin="1" />
+                <link src="o2" trg="o13" pin="1" />
+                <link src="o1" trg="o3" pin="2" />
+                <link src="o8" trg="o11" pin="1" />
+                <link src="o0" trg="o3" pin="1" />
+                <link src="o2" trg="o3" pin="3" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o3" trg="o8" pin="1" />
+                <link src="o10" trg="o9" pin="2" />
+                <link src="o11" trg="o7" pin="2" />
+                <link src="o4" trg="o5" pin="1" />
+                <link src="o9" trg="o11" pin="2" />
+                <link src="o0" trg="o4" pin="1" />
+                <link src="o7" trg="o12" pin="1" />
+            </level>
+            <level id="0001F" primary="92b1b6" secondary="bed2cf" author="I don't work yet">
+                <gate id="o0" pins="0" type="IN" x="36" y="50" />
+                <gate id="o2" pins="0" type="IN" x="36" y="162" />
+                <gate id="o1" pins="0" type="IN" x="36" y="104" />
+                <gate id="o4" pins="0" type="IN" x="36" y="210" />
+                <gate id="o3" pins="3" type="XOR" x="185" y="104" nobus="1" />
+                <gate id="o6" pins="0" type="IN" x="36" y="263" />
+                <gate id="o5" pins="3" type="XOR" x="185" y="210" nobus="1" />
+                <gate id="o8" pins="2" type="FUSE" x="330" y="58" />
+                <gate id="o7" pins="2" type="BOMB" x="249" y="162" />
+                <gate id="o13" pins="1" type="OUT" x="481" y="162" />
+                <gate id="o12" pins="3" type="AND" x="414" y="162" />
+                <gate id="o9" pins="1" type="NOT" x="165" y="50" />
+                <gate id="o10" pins="2" type="FUSE" x="330" y="255" />
+                <gate id="o11" pins="1" type="NOT" x="249" y="232" />
+                <link src="o11" trg="o10" pin="1" />
+                <link src="o1" trg="o3" pin="2" />
+                <link src="o3" trg="o8" pin="2" />
+                <link src="o5" trg="o7" pin="2" />
+                <link src="o2" trg="o3" pin="3" />
+                <link src="o2" trg="o5" pin="1" />
+                <link src="o6" trg="o10" pin="2" />
+                <link src="o6" trg="o5" pin="3" />
+                <link src="o9" trg="o8" pin="1" />
+                <link src="o3" trg="o12" pin="2" />
+                <link src="o0" trg="o9" pin="1" />
+                <link src="o12" trg="o13" pin="1" />
+                <link src="o5" trg="o11" pin="1" />
+                <link src="o4" trg="o5" pin="2" />
+                <link src="o0" trg="o3" pin="1" />
+                <link src="o3" trg="o7" pin="1" />
+                <link src="o8" trg="o12" pin="1" />
+                <link src="o10" trg="o12" pin="3" />
+            </level>
+            <level id="0001E" author="gub">
+			  <gate id="o0" pins="0" type="IN" x="62" y="46" />
+			  <gate id="o2" pins="2" type="XOR" x="148" y="120" />
+			  <gate id="o1" pins="0" type="IN" x="62" y="160" />
+			  <gate id="o4" pins="2" type="AND" x="260" y="54" />
+			  <gate id="o10" pins="2" type="AND" x="377" y="232" />
+			  <gate id="o11" pins="1" type="OUT" x="460" y="232" />
+			  <gate id="o3" pins="2" type="XOR" x="260" y="240" />
+			  <gate id="o6" pins="1" type="OUT" x="460" y="52" />
+			  <gate id="o5" pins="1" type="NOT" x="377" y="120" />
+			  <gate id="o8" pins="0" type="IN" x="51" y="248" />
+			  <gate id="o7" pins="1" type="IN" x="260" y="160" />
+			  <gate id="o9" pins="1" type="OUT" x="460" y="160" />
+			  <link src="o0" trg="o4" pin="1" />
+			  <link src="o2" trg="o3" pin="1" />
+			  <link src="o7" trg="o9" pin="1" />
+			  <link src="o7" trg="o10" pin="1" />
+			  <link src="o1" trg="o2" pin="2" />
+			  <link src="o8" trg="o3" pin="2" />
+			  <link src="o0" trg="o2" pin="1" />
+			  <link src="o2" trg="o4" pin="2" />
+			  <link src="o2" trg="o7" pin="1" />
+			  <link src="o10" trg="o11" pin="1" />
+			  <link src="o3" trg="o10" pin="2" />
+			  <link src="o5" trg="o6" pin="1" />
+			  <link src="o4" trg="o5" pin="1" />
+			</level>
+            <level id="0001D" author="Your Name Here">
+                <gate id="o0" pins="0" type="IN" x="72" y="40" />
+                <gate id="o2" pins="1" type="OUT" x="424" y="120" />
+                <gate id="o1" pins="2" type="FUSE" x="190" y="80" />
+                <gate id="o4" pins="2" type="XOR" x="326" y="120" />
+                <gate id="o3" pins="2" type="FUSE" x="190" y="160" />
+                <gate id="o6" pins="0" type="IN" x="72" y="200" />
+                <gate id="o5" pins="0" type="IN" x="72" y="120" />
+                <gate id="o8" pins="2" type="FUSE" x="190" y="240" />
+                <gate id="o14" pins="1" type="OUT" x="424" y="280" />
+                <gate id="o7" pins="0" type="IN" x="72" y="280" />
+                <gate id="o13" pins="1" type="OUT" x="424" y="40" />
+                <gate id="o12" pins="1" type="NOT" x="326" y="280" />
+                <gate id="o9" pins="2" type="XOR" x="326" y="200" />
+                <gate id="o10" pins="1" type="OUT" x="424" y="200" />
+                <gate id="o11" pins="1" type="NOT" x="326" y="40" />
+                <link src="o5" trg="o3" pin="1" />
+                <link src="o11" trg="o13" pin="1" />
+                <link src="o4" trg="o2" pin="1" />
+                <link src="o1" trg="o11" pin="1" />
+                <link src="o8" trg="o9" pin="2" />
+                <link src="o3" trg="o4" pin="2" />
+                <link src="o7" trg="o8" pin="2" />
+                <link src="o12" trg="o14" pin="1" />
+                <link src="o3" trg="o9" pin="1" />
+                <link src="o6" trg="o3" pin="2" />
+                <link src="o0" trg="o1" pin="1" />
+                <link src="o5" trg="o1" pin="2" />
+                <link src="o9" trg="o10" pin="1" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o8" trg="o12" pin="1" />
+            </level>
+			<level id="0001A" author="gub" primary="becfd2" secondary="93a7b5" >
+			  <gate id="o2" pins="1" type="OUT" x="479" y="85" />
+			  <gate id="o1" pins="1" type="OUT" x="479" y="179" />
+			  <gate id="o10" pins="0" type="IN" x="26" y="179" />
+			  <gate id="o4" pins="2" type="XOR" x="400" y="179" />
+			  <gate id="o11" pins="0" type="IN" x="26" y="266" />
+			  <gate id="o3" pins="2" type="AND" x="287" y="85" />
+			  <gate id="o6" pins="2" type="XOR" x="198" y="187" />
+			  <gate id="o5" pins="1" type="NOT" x="287" y="228" />
+			  <gate id="o8" pins="0" type="IN" x="26" y="38" />
+			  <gate id="o7" pins="2" type="XOR" x="198" y="126" />
+			  <gate id="o9" pins="0" type="IN" x="26" y="134" />
+			  <link src="o4" trg="o1" pin="1" />
+			  <link src="o3" trg="o2" pin="1" />
+			  <link src="o11" trg="o6" pin="2" />
+			  <link src="o9" trg="o7" pin="2" />
+			  <link src="o6" trg="o5" pin="1" />
+			  <link src="o3" trg="o4" pin="1" />
+			  <link src="o10" trg="o6" pin="1" />
+			  <link src="o8" trg="o3" pin="1" />
+			  <link src="o7" trg="o3" pin="2" />
+			  <link src="o5" trg="o4" pin="2" />
+			  <link src="o8" trg="o7" pin="1" />
+			</level>
+            <level author="Gabriel Palma" id="0001B" primary="becfd2" secondary="93a7b5" >
+                <gate type="OUT" id="o1" x="485" y="138" pins="1" />
+                <gate type="OR" id="o2" x="391" y="138" pins="2" />
+                <gate type="NOT" pins="1" id="o5" x="289" y="171" />
+                <gate type="IN" id="o4" x="20" y="120" pins="0" />
+                <gate type="NOT" pins="1" id="o7" x="126" y="164" />
+                <gate type="IN" id="o8" x="20" y="289" pins="0" />
+                <gate type="BOMB" id="o9" x="485" y="193" pins="1" />
+                <gate type="XOR" id="o6" x="215" y="203" pins="2" />
+                <gate type="AND" id="o10" x="356" y="253" pins="2" />
+                <gate type="IN" id="o11" x="20" y="21" pins="0" />
+                <gate type="XOR" id="o3" x="215" y="74" pins="2" />
+                <link src="o2" trg="o1" pin="1" />
+                <link src="o5" trg="o2" pin="2" />
+                <link src="o4" trg="o7" pin="1" />
+                <link src="o6" trg="o5" pin="1" />
+                <link src="o7" trg="o6" pin="1" />
+                <link src="o8" trg="o6" pin="2" />
+                <link src="o10" trg="o9" pin="1" />
+                <link src="o6" trg="o10" pin="1" />
+                <link src="o8" trg="o10" pin="2" />
+                <link src="o11" trg="o3" pin="1" />
+                <link src="o4" trg="o3" pin="2" />
+                <link src="o3" trg="o2" pin="1" />
+            </level>
+            <level id="0001C" author="gub" primary="becfd2" secondary="93a7b5" >
+			  <gate id="o2" pins="1" type="OUT" x="482" y="137" />
+			  <gate id="o1" pins="1" type="OUT" x="482" y="81" />
+			  <gate id="o4" pins="2" type="XOR" x="355" y="81" />
+			  <gate id="o3" pins="1" type="OUT" x="482" y="254" />
+			  <gate id="o6" pins="1" type="OUT" x="482" y="190" />
+			  <gate id="o5" pins="2" type="XOR" x="355" y="254" />
+			  <gate id="o8" pins="2" type="XOR" x="270" y="137" />
+			  <gate id="o15" pins="0" type="IN" x="45" y="127" />
+			  <gate id="o7" pins="2" type="XOR" x="270" y="190" />
+			  <gate id="o14" pins="0" type="IN" x="45" y="182" />
+			  <gate id="o13" pins="0" type="IN" x="45" y="228" />
+			  <gate id="o9" pins="3" type="OR" x="172" y="73" />
+			  <gate id="o12" pins="0" type="IN" x="45" y="270" />
+			  <gate id="o18" pins="1" type="NOT" x="355" y="190" />
+			  <gate id="o17" pins="0" type="IN" x="45" y="26" />
+			  <gate id="o16" pins="0" type="IN" x="45" y="73" />
+			  <gate id="o10" pins="2" type="OR" x="172" y="162" />
+			  <gate id="o11" pins="2" type="OR" x="172" y="262" />
+			  <link src="o17" trg="o9" pin="1" />
+			  <link src="o14" trg="o10" pin="2" />
+			  <link src="o7" trg="o18" pin="1" />
+			  <link src="o9" trg="o8" pin="1" />
+			  <link src="o16" trg="o9" pin="2" />
+			  <link src="o8" trg="o4" pin="2" />
+			  <link src="o11" trg="o7" pin="2" />
+			  <link src="o18" trg="o6" pin="1" />
+			  <link src="o15" trg="o10" pin="1" />
+			  <link src="o13" trg="o11" pin="1" />
+			  <link src="o7" trg="o5" pin="1" />
+			  <link src="o10" trg="o7" pin="1" />
+			  <link src="o5" trg="o3" pin="1" />
+			  <link src="o10" trg="o8" pin="2" />
+			  <link src="o8" trg="o2" pin="1" />
+			  <link src="o4" trg="o1" pin="1" />
+			  <link src="o11" trg="o5" pin="2" />
+			  <link src="o9" trg="o4" pin="1" />
+			  <link src="o15" trg="o9" pin="3" />
+			  <link src="o12" trg="o11" pin="2" />
+			</level>
+        </chapter>
+        <!-- First Chapter Starts Here -->
+        <chapter>            
+            <!-- First Level Starts Here -->
+            <level id="0000A" author="gub" primary="afcfe1" secondary="8e90ba" >
+			  <gate id="o2" pins="0" type="IN" x="80" y="228" />
+			  <gate id="o1" pins="0" type="IN" x="80" y="120" />
+			  <gate id="o4" pins="1" type="IN" x="295" y="75" />
+			  <gate id="o3" pins="2" type="OR" x="295" y="176" />
+			  <gate id="o6" pins="1" type="OUT" x="415" y="176" />
+			  <gate id="o5" pins="1" type="OUT" x="415" y="75" />
+			  <link src="o1" trg="o3" pin="1" />
+			  <link src="o3" trg="o6" pin="1" />
+			  <link src="o2" trg="o3" pin="2" />
+			  <link src="o4" trg="o5" pin="1" />
+			  <link src="o1" trg="o4" pin="1" />
+			</level>
+            <level author="gub" id="0000B" primary="adcae3" secondary="8f8dbb" >
+                <gate type="IN" id="o1" x="28" y="34" pins="0" />
+                <gate type="IN" id="o2" x="133" y="92" pins="1" />
+                <gate type="OR" id="o3" x="269" y="54" pins="2" />
+                <gate type="IN" id="o4" x="269" y="116" pins="1" />
+                <gate type="IN" id="o5" x="28" y="269" pins="0" />
+                <gate type="IN" id="o6" x="132" y="210" pins="1" />
+                <gate type="IN" id="o7" x="269" y="164" pins="1" />
+                <gate type="OR" id="o8" x="269" y="246" pins="2" />
+                <gate type="OUT" id="o9" x="459" y="116" pins="1" />
+                <gate type="OUT" id="o10" x="459" y="164" pins="1" />
+                <gate type="OUT" id="o11" x="459" y="54" pins="1" />
+                <gate type="OUT" id="o12" x="459" y="246" pins="1" />
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o1" trg="o3" pin="1" />
+                <link src="o2" trg="o3" pin="2" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o5" trg="o6" pin="1" />
+                <link src="o6" trg="o7" pin="1" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o5" trg="o8" pin="2" />
+                <link src="o4" trg="o9" pin="1" />
+                <link src="o7" trg="o10" pin="1" />
+                <link src="o8" trg="o12" pin="1" />
+                <link src="o3" trg="o11" pin="1" />
+            </level>
+			<level id="0000C" author="gub" primary="adc6e3" secondary="938dbb" >
+			  <gate id="o2" pins="1" type="NOT" x="154" y="191" />
+			  <gate id="o1" pins="0" type="IN" x="67" y="72" />
+			  <gate id="o4" pins="1" type="OUT" x="430" y="61" />
+			  <gate id="o3" pins="0" type="IN" x="67" y="191" />
+			  <gate id="o6" pins="1" type="IN" x="336" y="125" />
+			  <gate id="o5" pins="2" type="OR" x="240" y="125" />
+			  <gate id="o8" pins="1" type="OUT" x="431" y="262" />
+			  <gate id="o7" pins="1" type="IN" x="240" y="262" />
+			  <gate id="o9" pins="1" type="NOT" x="154" y="72" />
+			  <link src="o1" trg="o9" pin="1" />
+			  <link src="o7" trg="o8" pin="1" />
+			  <link src="o2" trg="o5" pin="2" />
+			  <link src="o3" trg="o7" pin="1" />
+			  <link src="o5" trg="o6" pin="1" />
+			  <link src="o9" trg="o5" pin="1" />
+			  <link src="o3" trg="o2" pin="1" />
+			  <link src="o6" trg="o4" pin="1" />
+			</level>
+			<level id="0000D" author="gub" primary="adc1e3" secondary="988dbb" >
+			  <gate id="o7" pins="1" type="OUT" x="470" y="163" />
+			  <gate id="o2" pins="0" type="IN" x="79" y="171" />
+			  <gate id="o1" pins="0" type="IN" x="79" y="85" />
+			  <gate id="o4" pins="2" type="AND" x="190" y="124" />
+			  <gate id="o3" pins="0" type="IN" x="79" y="256" />
+			  <gate id="o6" pins="1" type="IN" x="365" y="163" />
+			  <gate id="o5" pins="2" type="OR" x="285" y="163" />
+			  <link src="o6" trg="o7" pin="1" />
+			  <link src="o4" trg="o5" pin="1" />
+			  <link src="o1" trg="o4" pin="1" />
+			  <link src="o5" trg="o6" pin="1" />
+			  <link src="o3" trg="o5" pin="2" />
+			  <link src="o2" trg="o4" pin="2" />
+			</level>
+			<level id="0000E" author="gub" primary="adbce3" secondary="9b8dbb" >
+			  <gate id="o2" pins="0" type="IN" x="69" y="136" />
+			  <gate id="o1" pins="0" type="IN" x="69" y="64" />
+			  <gate id="o10" pins="1" type="NOT" x="149" y="64" />
+			  <gate id="o4" pins="2" type="AND" x="149" y="191" />
+			  <gate id="o3" pins="0" type="IN" x="69" y="250" />
+			  <gate id="o6" pins="2" type="AND" x="306" y="164" />
+			  <gate id="o5" pins="1" type="IN" x="222" y="191" />
+			  <gate id="o8" pins="1" type="OUT" x="468" y="164" />
+			  <gate id="o7" pins="1" type="IN" x="384" y="164" />
+			  <link src="o5" trg="o6" pin="2" />
+			  <link src="o1" trg="o10" pin="1" />
+			  <link src="o4" trg="o5" pin="1" />
+			  <link src="o10" trg="o6" pin="1" />
+			  <link src="o7" trg="o8" pin="1" />
+			  <link src="o2" trg="o4" pin="1" />
+			  <link src="o6" trg="o7" pin="1" />
+			  <link src="o3" trg="o4" pin="2" />
+			</level>
+            <level id="0000F" author="gub" primary="adb7e3" secondary="9e8dbb" >
+			  <gate id="o2" pins="1" type="OUT" x="476" y="71" />
+			  <gate id="o1" pins="2" type="AND" x="373" y="264" />
+			  <gate id="o10" pins="2" type="AND" x="373" y="164" />
+			  <gate id="o4" pins="1" type="OUT" x="476" y="164" />
+			  <gate id="o11" pins="0" type="IN" x="38" y="63" />
+			  <gate id="o3" pins="1" type="OUT" x="476" y="264" />
+			  <gate id="o6" pins="0" type="IN" x="38" y="208" />
+			  <gate id="o5" pins="2" type="OR" x="109" y="116" />
+			  <gate id="o8" pins="1" type="IN" x="297" y="208" />
+			  <gate id="o7" pins="2" type="AND" x="162" y="156" />
+			  <gate id="o13" pins="1" type="IN" x="297" y="116" />
+			  <gate id="o12" pins="1" type="NOT" x="427" y="164" />
+			  <gate id="o9" pins="2" type="OR" x="209" y="71" />
+			  <link src="o11" trg="o9" pin="1" />
+			  <link src="o6" trg="o7" pin="2" />
+			  <link src="o1" trg="o3" pin="1" />
+			  <link src="o7" trg="o8" pin="1" />
+			  <link src="o8" trg="o10" pin="2" />
+			  <link src="o11" trg="o5" pin="1" />
+			  <link src="o9" trg="o13" pin="1" />
+			  <link src="o6" trg="o1" pin="2" />
+			  <link src="o5" trg="o7" pin="1" />
+			  <link src="o13" trg="o10" pin="1" />
+			  <link src="o8" trg="o1" pin="1" />
+			  <link src="o7" trg="o9" pin="2" />
+			  <link src="o12" trg="o4" pin="1" />
+			  <link src="o10" trg="o12" pin="1" />
+			  <link src="o9" trg="o2" pin="1" />
+			  <link src="o6" trg="o5" pin="2" />
+			</level>
+            <level id="0000G" author="gub" primary="adb3e3" secondary="a28dbb" >
+			  <gate id="o2" pins="0" type="IN" x="68" y="266" />
+			  <gate id="o1" pins="0" type="IN" x="68" y="67" />
+			  <gate id="o10" pins="1" type="OUT" x="487" y="161" />
+			  <gate id="o4" pins="0" type="IN" x="68" y="161" />
+			  <gate id="o3" pins="3" type="OR" x="209" y="161" />
+			  <gate id="o6" pins="1" type="NOT" x="209" y="266" />
+			  <gate id="o5" pins="1" type="NOT" x="209" y="67" />
+			  <gate id="o8" pins="1" type="IN" x="314" y="67" />
+			  <gate id="o7" pins="3" type="AND" x="386" y="161" />
+			  <gate id="o9" pins="1" type="IN" x="314" y="266" />
+			  <link src="o4" trg="o3" pin="2" />
+			  <link src="o2" trg="o6" pin="1" />
+			  <link src="o7" trg="o10" pin="1" />
+			  <link src="o6" trg="o9" pin="1" />
+			  <link src="o3" trg="o7" pin="2" />
+			  <link src="o9" trg="o7" pin="3" />
+			  <link src="o1" trg="o5" pin="1" />
+			  <link src="o8" trg="o7" pin="1" />
+			  <link src="o1" trg="o3" pin="1" />
+			  <link src="o2" trg="o3" pin="3" />
+			  <link src="o5" trg="o8" pin="1" />
+			</level>
+            <level id="0000H" author="gub" primary="afcfe1" secondary="4b4e85" >
+			  <gate id="o2" pins="2" type="OR" x="375" y="146" />
+			  <gate id="o1" pins="3" type="OR" x="260" y="64" />
+			  <gate id="o10" pins="1" type="OUT" x="471" y="239" />
+			  <gate id="o4" pins="0" type="IN" x="191" y="154" />
+			  <gate id="o11" pins="1" type="NOT" x="375" y="239" />
+			  <gate id="o3" pins="1" type="OUT" x="471" y="146" />
+			  <gate id="o6" pins="0" type="IN" x="46" y="247" />
+			  <gate id="o5" pins="1" type="OUT" x="471" y="64" />
+			  <gate id="o8" pins="2" type="OR" x="270" y="239" />
+			  <gate id="o7" pins="0" type="IN" x="46" y="53" />
+			  <link src="o4" trg="o1" pin="3" />
+			  <link src="o7" trg="o1" pin="1" />
+			  <link src="o1" trg="o2" pin="1" />
+			  <link src="o1" trg="o5" pin="1" />
+			  <link src="o6" trg="o1" pin="2" />
+			  <link src="o6" trg="o8" pin="2" />
+			  <link src="o2" trg="o3" pin="1" />
+			  <link src="o4" trg="o8" pin="1" />
+			  <link src="o4" trg="o2" pin="2" />
+			  <link src="o8" trg="o11" pin="1" />
+			  <link src="o11" trg="o10" pin="1" />
+			</level>
+            <level id="0000I" author="gub" primary="adb0e3" secondary="a58dbb" >
+			  <gate id="o2" pins="1" type="OUT" x="488" y="140" />
+			  <gate id="o1" pins="0" type="IN" x="54" y="32" />
+			  <gate id="o4" pins="1" type="IN" x="420" y="140" />
+			  <gate id="o3" pins="1" type="NOT" x="354" y="140" />
+			  <gate id="o6" pins="0" type="IN" x="54" y="170" />
+			  <gate id="o5" pins="0" type="IN" x="54" y="79" />
+			  <gate id="o8" pins="3" type="AND" x="108" y="170" />
+			  <gate id="o14" pins="1" type="NOT" x="231" y="203" />
+			  <gate id="o7" pins="0" type="IN" x="54" y="281" />
+			  <gate id="o13" pins="2" type="OR" x="293" y="140" />
+			  <gate id="o12" pins="1" type="NOT" x="231" y="71" />
+			  <gate id="o9" pins="1" type="NOT" x="108" y="281" />
+			  <gate id="o10" pins="2" type="OR" x="176" y="203" />
+			  <gate id="o11" pins="2" type="AND" x="176" y="71" />
+			  <link src="o10" trg="o14" pin="1" />
+			  <link src="o8" trg="o10" pin="1" />
+			  <link src="o9" trg="o10" pin="2" />
+			  <link src="o5" trg="o8" pin="1" />
+			  <link src="o4" trg="o2" pin="1" />
+			  <link src="o6" trg="o8" pin="2" />
+			  <link src="o1" trg="o11" pin="1" />
+			  <link src="o13" trg="o3" pin="1" />
+			  <link src="o14" trg="o13" pin="2" />
+			  <link src="o12" trg="o13" pin="1" />
+			  <link src="o5" trg="o11" pin="2" />
+			  <link src="o7" trg="o9" pin="1" />
+			  <link src="o3" trg="o4" pin="1" />
+			  <link src="o7" trg="o8" pin="3" />
+			  <link src="o11" trg="o12" pin="1" />
+			</level>
+            <level id="0000J" author="gub" primary="b0ade3" secondary="a98dbb">
+			  <gate id="o2" pins="1" type="OUT" x="482" y="54" />
+			  <gate id="o1" pins="0" type="IN" x="41" y="38" />
+			  <gate id="o4" pins="2" type="AND" x="376" y="54" />
+			  <gate id="o3" pins="1" type="OUT" x="482" y="264" />
+			  <gate id="o6" pins="3" type="XOR" x="314" y="154" />
+			  <gate id="o5" pins="2" type="AND" x="376" y="263" />
+			  <gate id="o15" pins="2" type="OR" x="229" y="98" />
+			  <gate id="o8" pins="0" type="IN" x="41" y="154" />
+			  <gate id="o14" pins="2" type="AND" x="270" y="46" />
+			  <gate id="o7" pins="0" type="IN" x="41" y="287" />
+			  <gate id="o13" pins="2" type="AND" x="205" y="279" />
+			  <gate id="o12" pins="2" type="XOR" x="281" y="271" />
+			  <gate id="o9" pins="2" type="AND" x="97" y="200" />
+			  <gate id="o19" pins="1" type="NOT" x="425" y="54" />
+			  <gate id="o18" pins="2" type="XOR" x="136" y="90" />
+			  <gate id="o17" pins="1" type="NOT" x="174" y="38" />
+			  <gate id="o10" pins="1" type="IN" x="174" y="154" />
+			  <gate id="o20" pins="1" type="NOT" x="439" y="264" />
+			  <gate id="o11" pins="1" type="NOT" x="229" y="222" />
+			  <link src="o17" trg="o14" pin="1" />
+			  <link src="o20" trg="o3" pin="1" />
+			  <link src="o8" trg="o18" pin="2" />
+			  <link src="o6" trg="o4" pin="2" />
+			  <link src="o19" trg="o2" pin="1" />
+			  <link src="o1" trg="o17" pin="1" />
+			  <link src="o9" trg="o11" pin="1" />
+			  <link src="o15" trg="o14" pin="2" />
+			  <link src="o12" trg="o6" pin="3" />
+			  <link src="o7" trg="o13" pin="2" />
+			  <link src="o13" trg="o12" pin="2" />
+			  <link src="o10" trg="o15" pin="2" />
+			  <link src="o9" trg="o10" pin="1" />
+			  <link src="o6" trg="o5" pin="1" />
+			  <link src="o8" trg="o9" pin="1" />
+			  <link src="o9" trg="o13" pin="1" />
+			  <link src="o14" trg="o6" pin="1" />
+			  <link src="o7" trg="o9" pin="2" />
+			  <link src="o11" trg="o12" pin="1" />
+			  <link src="o4" trg="o19" pin="1" />
+			  <link src="o12" trg="o5" pin="2" />
+			  <link src="o1" trg="o18" pin="1" />
+			  <link src="o5" trg="o20" pin="1" />
+			  <link src="o10" trg="o6" pin="2" />
+			  <link src="o14" trg="o4" pin="1" />
+			  <link src="o18" trg="o15" pin="1" />
+			</level>
+            <level id="0000K" author="gub" primary="b5ade3" secondary="ad8dbb">
+			  <gate id="o2" pins="0" type="IN" x="43" y="35" />
+			  <gate id="o1" pins="0" type="IN" x="43" y="145" />
+			  <gate id="o10" pins="1" type="NOT" x="428" y="145" />
+			  <gate id="o4" pins="3" type="OR" x="111" y="145" />
+			  <gate id="o11" pins="1" type="OUT" x="499" y="145" />
+			  <gate id="o3" pins="0" type="IN" x="43" y="281" />
+			  <gate id="o5" pins="1" type="IN" x="164" y="281" />
+			  <gate id="o8" pins="1" type="IN" x="164" y="145" />
+			  <gate id="o7" pins="2" type="AND" x="277" y="43" />
+			  <gate id="o13" pins="2" type="AND" x="277" y="273" />
+			  <gate id="o12" pins="1" type="NOT" x="277" y="145" />
+			  <gate id="o9" pins="3" type="OR" x="362" y="145" />
+			  <link src="o8" trg="o13" pin="1" />
+			  <link src="o5" trg="o13" pin="2" />
+			  <link src="o10" trg="o11" pin="1" />
+			  <link src="o3" trg="o4" pin="3" />
+			  <link src="o2" trg="o7" pin="1" />
+			  <link src="o12" trg="o9" pin="2" />
+			  <link src="o3" trg="o5" pin="1" />
+			  <link src="o9" trg="o10" pin="1" />
+			  <link src="o2" trg="o4" pin="1" />
+			  <link src="o8" trg="o7" pin="2" />
+			  <link src="o4" trg="o8" pin="1" />
+			  <link src="o8" trg="o12" pin="1" />
+			  <link src="o1" trg="o4" pin="2" />
+			  <link src="o7" trg="o9" pin="1" />
+			  <link src="o13" trg="o9" pin="3" />
+			</level>  
+        </chapter>        
+    </original>
+    <tutorial>
+        <chapter>
+            <level author="Gabriel Palma" id="9001" primary="becfd2" secondary="93a7b5" >
+                <tutorial>
+                    <tutorialevent action="1" src="t1" res="switch_01" wait="1"/>
+                    <tutorialevent action="1" src="t1" res="switch_02" wait="1"/>                    
+                    <tutorialgate type="IN" id="t1" x="249" y="134" pins="0" />
+                </tutorial>
+                <gate type="IN" id="o1" x="46" y="150" pins="0" helper="1" />
+                <gate type="IN" id="o2" x="265" y="150" pins="1" helper="1" />
+                <gate type="OUT" id="o3" x="505" y="150" pins="1" />
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o2" trg="o3" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9002" secondary="92abb6" primary="bed2d2" >
+                <tutorial>
+                    <tutorialevent action="0" src="t1" res="switch_03" wait="1" />
+                    <tutorialevent action="1" src="t1" res="switch_03" wait="1" />
+                    <tutorialevent action="1" src="t2" res="switch_04" wait="1" />
+                    <tutorialgate type="IN" id="t1" x="149" y="134" pins="0" />
+                    <tutorialgate type="IN" id="t2" x="349" y="134" pins="1" />
+                    <tutoriallink src="t1" trg="t2" pin="1" />
+                </tutorial>
+                <gate type="IN" id="o1" x="31" y="133" pins="0" helper="1" />
+                <gate type="IN" id="o2" x="251" y="38" pins="1" helper="1" />
+                <gate type="IN" id="o3" x="251" y="256" pins="1" helper="1" />
+                <gate type="OUT" id="o4" x="477" y="38" pins="1"/>
+                <gate type="OUT" id="o5" x="477" y="256" pins="1"/>
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o1" trg="o3" pin="1" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o3" trg="o5" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9003" secondary="92b1b6" primary="bed2cf" >
+                <tutorial>
+                    <tutorialevent action="2" src="t2" res="" />
+                    <tutorialevent action="0" src="t1" res="output_01" wait="1" />
+                    <tutorialevent action="0" src="t1" res="output_02" wait="1" />
+                    <tutorialevent action="1" src="t1" res="output_03" wait="1" />
+                    <tutorialgate type="IN" id="t1" x="149" y="134" pins="0" />
+                    <tutorialgate type="OUT" id="t2" x="349" y="134" pins="1" />
+                    <tutoriallink src="t1" trg="t2" pin="1" />
+                </tutorial>
+                <gate type="IN" id="o1" x="30" y="130" pins="0" />
+                <gate type="IN" id="o2" x="179" y="130" pins="1" />
+                <gate type="OUT" id="o3" x="353" y="45" pins="1" />
+                <gate type="IN" id="o4" x="353" y="180" pins="1" />
+                <gate type="OUT" id="o5" x="463" y="270" pins="1" />
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o2" trg="o3" pin="1" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o4" trg="o5" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9004" secondary="92b6b6" primary="bed2cd" >
+                <tutorial>
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="0" src="t1" res="or_01" wait="1" />
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="1" src="o3" res="or_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="" />
+                    <tutorialevent action="1" src="o4" res="or_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="or_02" wait="1" />
+                    <tutorialgate type="OR" id="o1" x="234" y="142" pins="2" />
+                    <tutorialgate type="OUT" id="o2" x="360" y="142" pins="1" />
+                    <tutorialgate type="IN" id="o3" x="136" y="95" pins="0" />
+                    <tutorialgate type="IN" id="o4" x="136" y="196" pins="0" />
+                    <tutoriallink src="o4" trg="o1" pin="2" />
+                    <tutoriallink src="o3" trg="o1" pin="1" />
+                    <tutoriallink src="o1" trg="o2" pin="1" />
+                </tutorial>
+                <gate type="IN" id="o1" x="37" y="38" pins="0"/>
+                <gate type="OR" id="o2" x="175" y="79" pins="2" />
+                <gate type="IN" id="o3" x="37" y="129" pins="0"/>
+                <gate type="IN" id="o4" x="239" y="79" pins="1"/>
+                <gate type="IN" id="o5" x="37" y="187" pins="0"/>
+                <gate type="IN" id="o6" x="37" y="285" pins="0"/>
+                <gate type="OR" id="o7" x="175" y="229" pins="2" />
+                <gate type="IN" id="o8" x="239" y="229" pins="1"/>
+                <gate type="OR" id="o9" x="310" y="147" pins="2" />
+                <gate type="IN" id="o10" x="404" y="147" pins="1"/>
+                <gate type="OUT" id="o11" x="488" y="147" pins="1"/>
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o3" trg="o2" pin="2" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o6" trg="o7" pin="2" />
+                <link src="o7" trg="o8" pin="1" />
+                <link src="o4" trg="o9" pin="1" />
+                <link src="o8" trg="o9" pin="2" />
+                <link src="o9" trg="o10" pin="1" />
+                <link src="o10" trg="o11" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9105" secondary="92b6b1" primary="bed2cb" >
+                <gate type="IN" id="o1" x="41" y="33" pins="0" />
+                <gate type="IN" id="o2" x="41" y="168" pins="0" />
+                <gate type="OR" id="o3" x="204" y="98" pins="3" />
+                <gate type="OR" id="o4" x="204" y="192" pins="2" />
+                <gate type="OUT" id="o5" x="501" y="36" pins="1" />
+                <gate type="OR" id="o6" x="350" y="132" pins="2" />
+                <gate type="OUT" id="o7" x="501" y="132" pins="1" />
+                <gate type="OUT" id="o8" x="501" y="192" pins="1" />
+                <gate type="OR" id="o9" x="350" y="246" pins="2" />
+                <gate type="IN" id="o10" x="41" y="277" pins="0" />
+                <gate type="OUT" id="o11" x="501" y="287" pins="1" />
+                <gate type="IN" id="o12" x="41" y="98" pins="0" />
+                <link src="o1" trg="o3" pin="1" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o3" trg="o5" pin="1" />
+                <link src="o3" trg="o6" pin="1" />
+                <link src="o4" trg="o6" pin="2" />
+                <link src="o6" trg="o7" pin="1" />
+                <link src="o4" trg="o8" pin="1" />
+                <link src="o4" trg="o9" pin="1" />
+                <link src="o10" trg="o4" pin="2" />
+                <link src="o10" trg="o9" pin="2" />
+                <link src="o9" trg="o11" pin="1" />
+                <link src="o2" trg="o3" pin="3" />
+                <link src="o12" trg="o3" pin="2" />
+            </level>
+            <level author="Gabriel Palma" id="9005" secondary="92b6ad" primary="bed2c8" >
+                <tutorial>
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="0" src="t1" res="and_01" wait="1" />
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="1" src="o3" res="and_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="" />
+                    <tutorialevent action="1" src="o4" res="and_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="and_02" wait="1" />
+                    <tutorialgate type="AND" id="o1" x="234" y="142" pins="2" />
+                    <tutorialgate type="OUT" id="o2" x="360" y="142" pins="1" />
+                    <tutorialgate type="IN" id="o3" x="136" y="95" pins="0" />
+                    <tutorialgate type="IN" id="o4" x="136" y="196" pins="0" />
+                    <tutoriallink src="o4" trg="o1" pin="2" />
+                    <tutoriallink src="o3" trg="o1" pin="1" />
+                    <tutoriallink src="o1" trg="o2" pin="1" />
+                </tutorial>
+                <gate type="IN" id="o1" x="30" y="30" pins="0" helper="1" />
+                <gate type="IN" id="o2" x="30" y="155" pins="0" helper="1" />
+                <gate type="IN" id="o3" x="30" y="285" pins="0" helper="1" />
+                <gate type="AND" id="o4" x="220" y="155" pins="3" />
+                <gate type="OUT" id="o5" x="487" y="155" pins="1"/>
+                <link src="o2" trg="o4" pin="2" />
+                <link src="o3" trg="o4" pin="3" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o4" trg="o5" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9006" secondary="92b6a9" primary="bed2c6" >
+                <gate type="AND" id="o1" x="210" y="45" pins="2" />
+                <gate type="OUT" id="o2" x="485" y="122" pins="1"/>
+                <gate type="AND" id="o3" x="401" y="122" pins="2" />
+                <gate type="IN" id="o4" x="301" y="70" pins="1"/>
+                <gate type="IN" id="o5" x="36" y="36" pins="0"/>
+                <gate type="IN" id="o6" x="36" y="149" pins="0"/>
+                <gate type="OR" id="o7" x="119" y="76" pins="2" />
+                <gate type="AND" id="o8" x="138" y="200" pins="2" />
+                <gate type="IN" id="o9" x="36" y="290" pins="0"/>
+                <gate type="OR" id="o10" x="272" y="133" pins="2" />
+                <gate type="AND" id="o11" x="342" y="258" pins="2" />
+                <link src="o3" trg="o2" pin="1" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o4" trg="o3" pin="1" />
+                <link src="o5" trg="o1" pin="1" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o6" trg="o7" pin="2" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o9" trg="o8" pin="2" />
+                <link src="o7" trg="o10" pin="1" />
+                <link src="o8" trg="o10" pin="2" />
+                <link src="o8" trg="o11" pin="2" />
+                <link src="o10" trg="o11" pin="1" />
+                <link src="o11" trg="o3" pin="2" />
+                <link src="o7" trg="o1" pin="2" />
+            </level>
+            <level author="Gabriel Palma" id="9007" secondary="92b6a4" primary="bed2c3" >
+                <tutorial>
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="0" src="t1" res="not_01" wait="1" />
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="1" src="o3" res="not_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="" />
+                    <tutorialevent action="1" src="o4" res="not_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="not_02" wait="1" />
+                    <tutorialgate type="NOT" id="o1" x="234" y="142" pins="1" />
+                    <tutorialgate type="OUT" id="o2" x="360" y="142" pins="1" />
+                    <tutorialgate type="IN" id="o3" x="136" y="142" pins="0" />
+                    <tutoriallink src="o3" trg="o1" pin="1" />
+                    <tutoriallink src="o1" trg="o2" pin="1" />
+                </tutorial>
+                <gate type="OUT" id="o1" x="496" y="137" pins="1"/>
+                <gate type="IN" id="o2" x="315" y="137" pins="1"/>
+                <gate type="NOT" id="o3" x="150" y="137" pins="1"/>
+                <gate type="IN" id="o4" x="37" y="137" pins="0"/>
+                <link src="o4" trg="o3" pin="1" />
+                <link src="o3" trg="o2" pin="1" />
+                <link src="o2" trg="o1" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9008" secondary="92b6b6" primary="bed2cd" >
+                <tutorial>
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="0" src="t1" res="xor_01" wait="1" />
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="1" src="o3" res="xor_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="" />
+                    <tutorialevent action="1" src="o5" res="xor_02" wait="1" />
+                    <tutorialevent action="1" src="o4" res="xor_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="xor_03" wait="1" />                    
+                    <tutorialgate type="XOR" id="o1" x="234" y="157" pins="3" />
+                    <tutorialgate type="OUT" id="o2" x="360" y="157" pins="1" />
+                    <tutorialgate type="IN" id="o3" x="136" y="120" pins="0" />
+                    <tutorialgate type="IN" id="o4" x="136" y="157" pins="0" />
+                    <tutorialgate type="IN" id="o5" x="136" y="194" pins="0" />
+                    <tutoriallink src="o5" trg="o1" pin="3" />
+                    <tutoriallink src="o4" trg="o1" pin="2" />
+                    <tutoriallink src="o3" trg="o1" pin="1" />
+                    <tutoriallink src="o1" trg="o2" pin="1" />
+                </tutorial>
+                <gate type="IN" id="o1" x="42" y="42" pins="0"/>
+                <gate type="XOR" id="o2" x="181" y="85" pins="2" />
+                <gate type="IN" id="o3" x="42" y="135" pins="0"/>
+                <gate type="IN" id="o4" x="245" y="85" pins="1"/>
+                <gate type="IN" id="o5" x="42" y="193" pins="0"/>
+                <gate type="IN" id="o6" x="42" y="291" pins="0"/>
+                <gate type="XOR" id="o7" x="181" y="235" pins="2" />
+                <gate type="IN" id="o8" x="245" y="235" pins="1"/>
+                <gate type="XOR" id="o9" x="316" y="153" pins="2" />
+                <gate type="IN" id="o10" x="410" y="153" pins="1"/>
+                <gate type="OUT" id="o11" x="494" y="153" pins="1"/>
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o3" trg="o2" pin="2" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o5" trg="o7" pin="1" />
+                <link src="o6" trg="o7" pin="2" />
+                <link src="o7" trg="o8" pin="1" />
+                <link src="o4" trg="o9" pin="1" />
+                <link src="o8" trg="o9" pin="2" />
+                <link src="o9" trg="o10" pin="1" />
+                <link src="o10" trg="o11" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9009" secondary="92b6ad" primary="bed2c8" >
+                <tutorial>
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="0" src="t1" res="bomb_01" wait="1" />
+                    <tutorialevent action="2" src="o1" res=""/>
+                    <tutorialevent action="1" src="o3" res="bomb_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="" />
+                    <tutorialevent action="1" src="o4" res="bomb_02" wait="1" />
+                    <tutorialevent action="1" src="o3" res="bomb_02" wait="1" />
+                    <tutorialgate type="BOMB" id="o1" x="324" y="142" pins="2" />
+                    <tutorialgate type="IN" id="o3" x="196" y="115" pins="0" />
+                    <tutorialgate type="IN" id="o4" x="196" y="176" pins="0" />
+                    <tutoriallink src="o4" trg="o1" pin="2" />
+                    <tutoriallink src="o3" trg="o1" pin="1" />
+                </tutorial>
+                <gate type="IN" id="o1" x="52" y="49" pins="0" />
+                <gate type="IN" id="o2" x="52" y="142" pins="0" />
+                <gate type="BOMB" id="o3" x="310" y="94" pins="2" />
+                <gate type="NOT" pins="1" id="o4" x="179" y="49" />
+                <gate type="AND" id="o5" x="310" y="179" pins="2" />
+                <gate type="IN" id="o6" x="52" y="235" pins="0" />
+                <gate type="OUT" id="o7" x="448" y="121" pins="1" />
+                <link src="o2" trg="o3" pin="2" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o4" trg="o3" pin="1" />
+                <link src="o2" trg="o5" pin="1" />
+                <link src="o6" trg="o5" pin="2" />
+                <link src="o5" trg="o7" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9010" secondary="92b6ad" primary="bed2c8" >
+                <gate type="IN" id="o1" x="61" y="95" pins="0" />
+                <gate type="IN" id="o2" x="61" y="210" pins="0" />
+                <gate type="OUT" id="o3" x="486" y="146" pins="1" />
+                <gate type="XOR" id="o4" x="150" y="146" pins="2" />
+                <gate type="BOMB" id="o5" x="366" y="41" pins="1" />
+                <gate type="IN" id="o6" x="242" y="95" pins="1" />
+                <gate type="IN" id="o7" x="242" y="210" pins="1" />
+                <gate type="BOMB" id="o8" x="150" y="287" pins="1" />
+                <gate type="XOR" id="o9" x="366" y="146" pins="2" />
+                <link src="o1" trg="o4" pin="1" />
+                <link src="o2" trg="o4" pin="2" />
+                <link src="o4" trg="o6" pin="1" />
+                <link src="o4" trg="o7" pin="1" />
+                <link src="o6" trg="o5" pin="1" />
+                <link src="o2" trg="o8" pin="1" />
+                <link src="o6" trg="o9" pin="1" />
+                <link src="o7" trg="o9" pin="2" />
+                <link src="o9" trg="o3" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="9011" secondary="92b6ad" primary="bed2c8" >
+                <gate type="IN" id="o1" x="48" y="266" pins="0" />
+                <gate type="IN" id="o2" x="133" y="191" pins="1" />
+                <gate type="OUT" id="o4" x="497" y="153" pins="1" />
+                <gate type="NOT" pins="1" id="o5" x="244" y="240" />
+                <gate type="IN" id="o6" x="48" y="52" pins="0" />
+                <gate type="AND" id="o3" x="386" y="153" pins="3" />
+                <gate type="FUSE" id="o7" x="244" y="153" pins="2" />
+                <gate type="NOT" pins="1" id="o8" x="244" y="52" />
+                <link src="o1" trg="o2" pin="1" />
+                <link src="o1" trg="o5" pin="1" />
+                <link src="o5" trg="o3" pin="3" />
+                <link src="o2" trg="o7" pin="2" />
+                <link src="o7" trg="o3" pin="2" />
+                <link src="o6" trg="o7" pin="1" />
+                <link src="o3" trg="o4" pin="1" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o8" trg="o3" pin="1" />
+            </level>
+        </chapter>
+    </tutorial>
+    <locking>
+        <chapter>            
+            <!-- FIRST LEVEL STARTS HERE -->
+            <level author="Gabriel Palma" id="4001" primary="719BA4" secondary="F1F4F5" >
+                <tutorial>
+                    <tutorialevent action="0" src="t1" res="locking_01" wait="1" />
+                    <tutorialevent action="2" src="t4" res="" />
+                    <tutorialevent action="2" src="t6" res="locking_02" wait="1" />
+                    <tutorialevent action="1" src="t1" res="" />
+                    <tutorialevent action="1" src="t3" res="locking_03" wait="1" />
+                    <tutorialevent action="2" src="t4" res="" />
+                    <tutorialevent action="2" src="t5" res="" />
+                    <tutorialevent action="2" src="t6" res="locking_04" wait="1" />
+                    <tutorialevent action="1" src="t1" res="" />
+                    <tutorialevent action="1" src="t2" res="" />
+                    <tutorialevent action="1" src="t3" res="locking_05" wait="1" />
+                    <tutorialgate id="t1" type="IN" pins="0" x="200" y="110" />
+                    <tutorialgate id="t2" type="IN" pins="0" x="200" y="160" />
+                    <tutorialgate id="t3" type="IN" pins="0" x="200" y="210" />
+                    <tutorialgate id="t4" type="OUT" pins="1" x="350" y="110" />
+                    <tutorialgate id="t5" type="OUT" pins="1" x="350" y="160" />
+                    <tutorialgate id="t6" type="OUT" pins="1" x="350" y="210" />
+                    <tutoriallink src="t1" trg="t4" pin="1" />
+                    <tutoriallink src="t2" trg="t5" pin="1" />
+                    <tutoriallink src="t3" trg="t6" pin="1" />
+                </tutorial>
+                <gate id="g1" type="IN" pins="0" x="200" y="110" />
+                <gate id="g2" type="IN" pins="0" x="200" y="160" />
+                <gate id="g3" type="IN" pins="0" x="200" y="210" />
+                <gate id="g4" type="OUT" pins="1" x="350" y="110" />
+                <gate id="g5" type="OUT" pins="1" x="350" y="160" />
+                <gate id="g6" type="OUT" pins="1" x="350" y="210" />
+                <link src="g1" trg="g4" pin="1" />
+                <link src="g2" trg="g5" pin="1" />
+                <link src="g3" trg="g6" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="4002" secondary="92b6b6" primary="bed2cd" >
+                <gate type="IN" id="o1" x="40" y="130" pins="0" />
+                <gate type="IN" id="o2" x="40" y="26" pins="0" />
+                <gate type="IN" id="o3" x="40" y="260" pins="0" />
+                <gate type="OR" id="o4" x="169" y="130" pins="3" />
+                <gate type="OUT" id="o5" x="437" y="130" pins="1" />
+                <gate type="IN" id="o6" x="260" y="130" pins="1" />
+                <gate type="OUT" id="o7" x="260" y="57" pins="1" />
+                <gate type="OUT" id="o8" x="260" y="205" pins="1" />
+                <link src="o2" trg="o4" pin="1" />
+                <link src="o1" trg="o4" pin="2" />
+                <link src="o3" trg="o4" pin="3" />
+                <link src="o4" trg="o6" pin="1" />
+                <link src="o6" trg="o5" pin="1" />
+                <link src="o2" trg="o7" pin="1" />
+                <link src="o3" trg="o8" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="4003" secondary="92b6b6" primary="bed2cd">
+                <gate type="XOR" id="o1" x="275" y="70" pins="2" />
+                <gate type="XOR" id="o2" x="275" y="215" pins="2" />
+                <gate type="OUT" id="o3" x="377" y="252" pins="1" />
+                <gate type="OUT" id="o4" x="377" y="165" pins="1" />
+                <gate type="OUT" id="o5" x="377" y="117" pins="1" />
+                <gate type="OUT" id="o6" x="377" y="35" pins="1" />
+                <gate type="IN" id="o7" x="172" y="35" pins="0" />
+                <gate type="IN" id="o8" x="172" y="117" pins="0" />
+                <gate type="IN" id="o9" x="172" y="165" pins="0" />
+                <gate type="IN" id="o10" x="172" y="252" pins="0" />
+                <link src="o1" trg="o6" pin="1" />
+                <link src="o7" trg="o1" pin="1" />
+                <link src="o8" trg="o1" pin="2" />
+                <link src="o8" trg="o5" pin="1" />
+                <link src="o9" trg="o2" pin="1" />
+                <link src="o9" trg="o4" pin="1" />
+                <link src="o10" trg="o2" pin="2" />
+                <link src="o2" trg="o3" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="4004" secondary="92b6b6" primary="bed2cd">
+                <gate type="IN" id="o1" x="88" y="39" pins="0" />
+                <gate type="IN" id="o2" x="88" y="98" pins="0" />
+                <gate type="IN" id="o3" x="88" y="168" pins="0" />
+                <gate type="IN" id="o4" x="88" y="237" pins="0" />
+                <gate type="XOR" id="o5" x="221" y="198" pins="2" />
+                <gate type="XOR" id="o6" x="221" y="65" pins="2" />
+                <gate type="XOR" id="o7" x="283" y="128" pins="2" />
+                <gate type="OUT" id="o8" x="375" y="65" pins="1" />
+                <gate type="OUT" id="o9" x="375" y="128" pins="1" />
+                <gate type="OUT" id="o10" x="374" y="198" pins="1" />
+                <link src="o5" trg="o10" pin="1" />
+                <link src="o7" trg="o9" pin="1" />
+                <link src="o6" trg="o8" pin="1" />
+                <link src="o1" trg="o6" pin="1" />
+                <link src="o2" trg="o6" pin="2" />
+                <link src="o2" trg="o7" pin="1" />
+                <link src="o3" trg="o7" pin="2" />
+                <link src="o3" trg="o5" pin="1" />
+                <link src="o4" trg="o5" pin="2" />
+            </level>    
+            <level author="Gabriel Palma" id="4005" secondary="92b6b6" primary="bed2cd">
+                <gate type="OUT" id="o1" x="398" y="103" pins="1" />
+                <gate type="OUT" id="o2" x="398" y="173" pins="1" />
+                <gate type="AND" id="o3" x="291" y="173" pins="2" />
+                <gate type="OR" id="o4" x="179" y="126" pins="2" />
+                <gate type="NOT" pins="1" id="o5" x="173" y="196" />
+                <gate type="IN" id="o6" x="85" y="199" pins="0" />
+                <gate type="IN" id="o7" x="85" y="103" pins="0" />
+                <gate type="IN" id="o8" x="291" y="103" pins="1" />
+                <link src="o3" trg="o2" pin="1" />
+                <link src="o4" trg="o3" pin="1" />
+                <link src="o5" trg="o3" pin="2" />
+                <link src="o6" trg="o5" pin="1" />
+                <link src="o7" trg="o4" pin="1" />
+                <link src="o6" trg="o4" pin="2" />
+                <link src="o4" trg="o8" pin="1" />
+                <link src="o8" trg="o1" pin="1" />
+            </level>
+            <level author="Gabriel Palma" id="4006" primary="adb0e3" secondary="a58dbb" >
+                <gate type="OUT" id="o1" x="447" y="125" pins="1" />
+                <gate type="OUT" id="o2" x="251" y="177" pins="1" />
+                <gate type="IN" id="o3" x="128" y="116" pins="0" />
+                <gate type="IN" id="o4" x="131" y="235" pins="0" />
+                <gate type="AND" id="o6" x="375" y="125" pins="2" />
+                <gate type="XOR" id="o5" x="187" y="177" pins="3" />
+                <gate type="IN" id="o7" x="128" y="177" pins="0" />
+                <gate type="IN" id="o8" x="296" y="235" pins="1" />
+                <link src="o3" trg="o6" pin="1" />
+                <link src="o6" trg="o1" pin="1" />
+                <link src="o5" trg="o2" pin="1" />
+                <link src="o4" trg="o5" pin="3" />
+                <link src="o3" trg="o5" pin="1" />
+                <link src="o7" trg="o5" pin="2" />
+                <link src="o4" trg="o8" pin="1" />
+                <link src="o8" trg="o6" pin="2" />
+            </level>
+            <level id="4007" author="gub">
+                <gate id="o0" pins="1" type="NOT" x="280" y="28" />
+                <gate id="o2" pins="1" type="OUT" x="478" y="140" />
+                <gate id="o1" pins="0" type="IN" x="78" y="296" />
+                <gate id="o3" pins="3" type="AND" x="393" y="140" />
+                <gate id="o6" pins="0" type="IN" x="78" y="236" />
+                <gate id="o5" pins="1" type="OUT" x="478" y="36" />
+                <gate id="o8" pins="0" type="IN" x="78" y="180" />
+                <gate id="o14" pins="2" type="XOR" x="280" y="288" />
+                <gate id="o7" pins="0" type="IN" x="78" y="90" />
+                <gate id="o13" pins="2" type="XOR" x="280" y="188" />
+                <gate id="o9" pins="1" type="OUT" x="478" y="236" />
+                <gate id="o12" pins="2" type="XOR" x="280" y="82" />
+                <gate id="o17" pins="0" type="IN" x="78" y="28" />
+                <gate id="o16" pins="2" type="XOR" x="280" y="140" />
+                <gate id="o10" pins="2" type="AND" x="393" y="36" />
+                <gate id="o11" pins="2" type="AND" x="393" y="236" />
+                <link src="o17" trg="o12" pin="1" />
+                <link src="o10" trg="o5" pin="1" />
+                <link src="o13" trg="o3" pin="3" />
+                <link src="o1" trg="o14" pin="2" />
+                <link src="o12" trg="o10" pin="2" />
+                <link src="o8" trg="o16" pin="2" />
+                <link src="o0" trg="o10" pin="1" />
+                <link src="o8" trg="o13" pin="1" />
+                <link src="o17" trg="o0" pin="1" />
+                <link src="o13" trg="o11" pin="1" />
+                <link src="o16" trg="o3" pin="2" />
+                <link src="o7" trg="o16" pin="1" />
+                <link src="o11" trg="o9" pin="1" />
+                <link src="o14" trg="o11" pin="2" />
+                <link src="o12" trg="o3" pin="1" />
+                <link src="o3" trg="o2" pin="1" />
+                <link src="o7" trg="o12" pin="2" />
+                <link src="o6" trg="o13" pin="2" />
+                <link src="o6" trg="o14" pin="1" />
+            </level>
+        </chapter>
+    </locking>
+</levels>    
+
